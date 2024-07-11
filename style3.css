@@ -1,0 +1,242 @@
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazirmatn[wght].ttf) format(ttf);
+  src: url(./font/Vazirmatn[wght].woff2) format(woff2);
+}
+
+    body {
+      font-family: "Poppins", sans-serif;
+      color: #444444;
+      font-family: vazir;
+      
+  }
+
+  #basketModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #basketModal.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  #basketModal.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #basketModal.close:hover,
+  #basketModal.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .trashAndaddbtn{
+    padding: 10px;
+    margin-top:4px;
+  }
+
+
+    .navbar-nav li{
+     padding: 0 10px;
+    
+    }
+    #nav-link{
+        background:linear-gradient(to right,#d7f2f8,#286f6c);
+    }
+    .navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    }
+
+    .language{
+      padding:10px;
+      color: black;
+  }
+  .language:hover{
+      color:#fff;
+  }
+  
+    .activity{
+        background-color:rgba(67, 142, 186, 0.5);
+        border-radius: 10px;
+        padding-left: 10px;
+
+    }
+
+    .footer-bg{
+        background:#1f5c68;
+    }
+    
+    .socials-footer a {
+        width: 40px;
+        height: 40px;
+    
+        display: inline-block;
+      }
+      .socials-footer i {
+        color: #fff;
+        padding: 12px;
+      }
+      .tt{
+        background-size:cover;
+        background-image:url(./img/dddd.png);
+        background-position: 87% 87%; 
+        width: 100%;
+      }
+
+
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.modal-container {
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    padding: 0;
+}
+
+
+.form-control1 {
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control2 {
+    font-size: 14px;
+    height: 20px;
+    width: 55px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 3px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin-top: 7px;
+}
+
+.form-control2:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control3 {
+    font-size: 14px;
+    height: 20px;
+    width: 30px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 3px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.form-control3:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+
+
+#userImgProduct {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.text-muted {
+    font-size: 10px;
+}
+
+.textmuted {
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.btn.btn-custom {
+    width: 100%;
+    height: 55px;
+    border-radius: 0;
+    padding: 13px 0;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn.btn-primary:hover .fas {
+    transform: translateX(10px);
+    transition: transform 0.5s ease
+}
+
+
+.fw-900 {
+    font-weight: 900;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.ps-30 {
+    padding-left: 30px;
+}
+
+.h4 {
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.textmuted,
+h5,
+.text-muted {
+    font-family: 'Poppins', sans-serif;
+}
